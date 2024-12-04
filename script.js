@@ -49,7 +49,7 @@ function gameOver(win) {
     if (win) {
         // If the user wins
         resultMessage.textContent = "🎉 Happy Birthday! 🎂 🎁";
-        resultImage.src = "path/to/your-happy-birthday-image.jpg"; // Replace with your image path
+        resultImage.src = "download.jpg"; // Replace with your image path
         resultImage.style.display = "block";
         retryButton.style.display = "none"; // No retry button if they win
     } else {
