@@ -3,14 +3,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Happy Birthday!</title>
+    <title>Happy Birthday Game!</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <div class="container">
-        <h1 id="main-message">小禮物</h1>
-        <button id="birthday-button">點進來</button>
+        <h1 id="main-message">🎉 Play the Game! 🎉</h1>
+        <button id="start-button">Start Game</button>
+
+        <!-- Game Area -->
+        <div id="game-area" style="display: none;">
+            <p>Click the moving box to win!</p>
+            <div id="box"></div>
+        </div>
+
+        <!-- Result Area -->
+        <div id="result" style="display: none;">
+            <h2 id="result-message"></h2>
+            <img id="result-image" src="" alt="" style="display: none;">
+            <button id="retry-button" style="display: none;">Try Again</button>
+        </div>
     </div>
+
     <script src="script.js"></script>
 </body>
 </html>
